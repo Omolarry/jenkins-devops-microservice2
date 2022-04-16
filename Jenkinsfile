@@ -10,6 +10,7 @@ pipeline {
                 sh 'mvn --version'
                 echo "Build"
             }
+		}
         stage('Test') {
             steps {
                 echo "Test"
